@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - RedHorizonSite</title>
+    <link rel="stylesheet" href="~/css/styles.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+</head>
+
+<body class="text-gray-300">
+    <header>
+        <div>
+            <div class="bg-zinc-700 p-8 flex justify-between">
+                    <div>REDHORIZON</div>
+                    <div></div>
+                <nav>
+                    <ul class="flex">
+                        <li class="mr-6">
+                            <a class="hover:text-gray-500" href="#bio">Bio</a>
+                        </li>
+                        <li class="mr-6">
+                            <a class="hover:text-gray-500" href="#music">Music</a>
+                        </li>
+                        <li class="mr-6">
+                            <a class="hover:text-gray-500" href="#shows">Shows</a>
+                        </li>
+                        <li class="mr-6">
+                            <a class="hover:text-gray-500" href="#gallery">Photo Gallery</a>
+                        </li>
+                        <li class="mr-6">
+                            <a class="hover:text-gray-500" href="#bookings">Book Us</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main role="main">
+        @RenderBody()
+    </main>
+    </div>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+
+</html>

@@ -1,0 +1,93 @@
+{
+  "Files": [
+    {
+      "Id": "/home/isaacm/repos/red-horizon-band-site/RedHorizonSite/wwwroot/css/site.css",
+      "PackagePath": "staticwebassets/css/site.css"
+    },
+    {
+      "Id": "/home/isaacm/repos/red-horizon-band-site/RedHorizonSite/wwwroot/css/styles.css",
+      "PackagePath": "staticwebassets/css/styles.css"
+    },
+    {
+      "Id": "/home/isaacm/repos/red-horizon-band-site/RedHorizonSite/wwwroot/favicon.ico",
+      "PackagePath": "staticwebassets/favicon.ico"
+    },
+    {
+      "Id": "/home/isaacm/repos/red-horizon-band-site/RedHorizonSite/wwwroot/img/001.png",
+      "PackagePath": "staticwebassets/img/001.png"
+    },
+    {
+      "Id": "/home/isaacm/repos/red-horizon-band-site/RedHorizonSite/wwwroot/img/001.png:Zone.Identifier",
+      "PackagePath": "staticwebassets/img/001.png:Zone.Identifier"
+    },
+    {
+      "Id": "/home/isaacm/repos/red-horizon-band-site/RedHorizonSite/wwwroot/img/004.png",
+      "PackagePath": "staticwebassets/img/004.png"
+    },
+    {
+      "Id": "/home/isaacm/repos/red-horizon-band-site/RedHorizonSite/wwwroot/img/004.png:Zone.Identifier",
+      "PackagePath": "staticwebassets/img/004.png:Zone.Identifier"
+    },
+    {
+      "Id": "/home/isaacm/repos/red-horizon-band-site/RedHorizonSite/wwwroot/img/007.png",
+      "PackagePath": "staticwebassets/img/007.png"
+    },
+    {
+      "Id": "/home/isaacm/repos/red-horizon-band-site/RedHorizonSite/wwwroot/img/007.png:Zone.Identifier",
+      "PackagePath": "staticwebassets/img/007.png:Zone.Identifier"
+    },
+    {
+      "Id": "/home/isaacm/repos/red-horizon-band-site/RedHorizonSite/wwwroot/img/054.png",
+      "PackagePath": "staticwebassets/img/054.png"
+    },
+    {
+      "Id": "/home/isaacm/repos/red-horizon-band-site/RedHorizonSite/wwwroot/img/054.png:Zone.Identifier",
+      "PackagePath": "staticwebassets/img/054.png:Zone.Identifier"
+    },
+    {
+      "Id": "/home/isaacm/repos/red-horizon-band-site/RedHorizonSite/wwwroot/img/446.png",
+      "PackagePath": "staticwebassets/img/446.png"
+    },
+    {
+      "Id": "/home/isaacm/repos/red-horizon-band-site/RedHorizonSite/wwwroot/img/446.png:Zone.Identifier",
+      "PackagePath": "staticwebassets/img/446.png:Zone.Identifier"
+    },
+    {
+      "Id": "/home/isaacm/repos/red-horizon-band-site/RedHorizonSite/wwwroot/img/568.png",
+      "PackagePath": "staticwebassets/img/568.png"
+    },
+    {
+      "Id": "/home/isaacm/repos/red-horizon-band-site/RedHorizonSite/wwwroot/img/568.png:Zone.Identifier",
+      "PackagePath": "staticwebassets/img/568.png:Zone.Identifier"
+    },
+    {
+      "Id": "/home/isaacm/repos/red-horizon-band-site/RedHorizonSite/wwwroot/img/810.png",
+      "PackagePath": "staticwebassets/img/810.png"
+    },
+    {
+      "Id": "/home/isaacm/repos/red-horizon-band-site/RedHorizonSite/wwwroot/img/810.png:Zone.Identifier",
+      "PackagePath": "staticwebassets/img/810.png:Zone.Identifier"
+    },
+    {
+      "Id": "/home/isaacm/repos/red-horizon-band-site/RedHorizonSite/wwwroot/img/main-photo.png",
+      "PackagePath": "staticwebassets/img/main-photo.png"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.RedHorizonSite.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.build.RedHorizonSite.props",
+      "PackagePath": "build\\RedHorizonSite.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.RedHorizonSite.props",
+      "PackagePath": "buildMultiTargeting\\RedHorizonSite.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.RedHorizonSite.props",
+      "PackagePath": "buildTransitive\\RedHorizonSite.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

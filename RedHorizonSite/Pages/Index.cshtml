@@ -1,0 +1,66 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+<div class="grid grid-cols-6 grid-rows-15 bg-zinc-700">
+    <div class="bg-zinc-700">
+    </div>
+    <div class="col-span-4 p-8 bg-zinc-700">
+        <img class="object-contain h-full w-full shadow-2xl" src="./img/main-photo.png" alt="Da Boyz">
+    </div>
+    <div class="bg-zinc-700">
+    </div>
+    <div class="bg-gray-600">
+    </div>
+    <div class="col-span-4 p-8 pb-10 bg-gray-600">
+        <partial name="_Bio.cshtml" />
+    </div>
+    <div class="bg-gray-600">
+    </div>
+    <div class="bg-zinc-700">
+    </div>
+    <div class="col-span-4 p-8 bg-zinc-700">
+        <partial name="_Music" />
+    </div>
+    <div class="bg-zinc-700">
+    </div>
+    <div>
+    </div>
+    <div class="col-span-4 p-8">
+        <partial name="_Shows" />
+    </div>
+    <div>
+    </div>
+    <div>
+    </div>
+    <div class="col-span-4 p-8">
+    <partial name="_PhotoGallery" for="Photos" />
+    </div>
+    <div>
+    </div>
+    <div>
+    </div>
+    <div class="col-span-4 p-8">
+    <partial name="_BookUs" />
+    </div>
+    <div>
+</div>
+
+</div>
+<!--    <partial name="_Music" />
+    <partial name="_Shows" />
+    <partial name="_PhotoGallery" />
+
+    <div class="bg-gray-700">
+        <ul>
+            <li>
+                <a title="https://www.instagram.com/redhorizon_official/"
+                    href="https://www.instagram.com/redhorizon_official/">Insta</a>
+            </li>
+            <li>
+                <a title="https://open.spotify.com/artist/5NNbleBNTvXos5KymGow8c?si=9taVTGXYSNumuW5p-DSVrg"
+                    href="https://open.spotify.com/artist/5NNbleBNTvXos5KymGow8c?si=9taVTGXYSNumuW5p-DSVrg"> spotify</a>
+            </li>
+        </ul>
+    </div>-->

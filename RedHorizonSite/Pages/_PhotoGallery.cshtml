@@ -1,0 +1,13 @@
+@model IEnumerable<(string,string)>
+
+    <section id="gallery">
+            <h1 class="text-6xl p-8">Photo Gallery</h1>
+            <div class="grid grid-cols-3 justify-around">
+                    @foreach (var image in @Model)
+                    {
+                        <div>
+                        <img src="@image.Item1" alt="@image.Item2" />
+                        </div>
+                    }
+</div>
+    </section>

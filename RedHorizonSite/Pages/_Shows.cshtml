@@ -1,23 +1,21 @@
+@using RedHorizonSite.Data;
+@model ShowsData;
+
 <section id="shows">
-    <!--<div class="box-content h-96 bg-gray-700">-->
-        <h1 class="text-6xl p-8">Shows</h1>
-        <!--<div class="table w-full px-4">-->
-            <table class="shadow-lg bg-gray-500">
-                <thead>
-                    <th class="text-left px-8 py-4">Date</th>
-                    <th class="text-left px-8 py-4">Details</th>
-                    <th class="text-left px-8 py-4">Location</th>
-                </thead>
-                <tr>
-                    <td class="px-8 py-4">0/1/2000</td>
-                    <td class="px-8 py-4">big show to save the rec center</td>
-                    <td class="px-8 py-4">rec center</td>
-                </tr>
-                <tr>
-                    <td class="px-8 py-4">0/2/2023</td>
-                    <td class="px-8 py-4">lallapolooaza</td>
-                    <td class="px-8 py-4">Frederick,Md</td>
-                </tr>
-            </table>
-        <!--</div>-->
+    <h1 class="text-6xl p-8">Shows</h1>
+    <table class="w-full">
+        <thead class="border-b text-lg">
+            <th class="text-left px-8 py-4">Date</th>
+            <th class="text-left px-8 py-4">Details</th>
+            <th class="text-left px-8 py-4">Location</th>
+        </thead>
+        @foreach (var show in Model.Shows)
+        {
+        <tr>
+            <td class="px-8 py-4">@show.Date</td>
+            <td class="px-8 py-4">@show.Description</td>
+            <td class="px-8 py-4">@show.Location</td>
+        </tr>
+        }
+    </table>
 </section>

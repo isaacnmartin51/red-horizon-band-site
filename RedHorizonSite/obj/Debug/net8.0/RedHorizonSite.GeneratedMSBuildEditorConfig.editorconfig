@@ -46,6 +46,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvX0Jvb2tVcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[/home/isaacm/repos/red-horizon-band-site/RedHorizonSite/Pages/_ContactUs.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvX0NvbnRhY3RVcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [/home/isaacm/repos/red-horizon-band-site/RedHorizonSite/Pages/_Music.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvX011c2ljLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 

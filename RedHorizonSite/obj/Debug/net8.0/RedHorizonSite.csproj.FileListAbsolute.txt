@@ -28,3 +28,5 @@
 /home/isaacm/repos/red-horizon-band-site/RedHorizonSite/obj/Debug/net8.0/RedHorizonSite.pdb
 /home/isaacm/repos/red-horizon-band-site/RedHorizonSite/obj/Debug/net8.0/RedHorizonSite.genruntimeconfig.cache
 /home/isaacm/repos/red-horizon-band-site/RedHorizonSite/obj/Debug/net8.0/ref/RedHorizonSite.dll
+/home/isaacm/repos/red-horizon-band-site/RedHorizonSite/obj/Debug/net8.0/RedHorizonSite.sourcelink.json
+/home/isaacm/repos/red-horizon-band-site/RedHorizonSite/bin/Debug/net8.0/shows.json

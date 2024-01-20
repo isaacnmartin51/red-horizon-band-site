@@ -6,7 +6,8 @@
                     @foreach (var image in @Model)
                     {
                         <div>
-                        <img src="@image.Item1" alt="@image.Item2" />
+                        <img class="hover:shadow-xl hover:shadow-gray-600/50 hover:scale-125
+                        transition ease-in-out delay-150 duration-500" src="@image.Item1" alt="@image.Item2" />
                         </div>
                     }
 </div>
